@@ -1,0 +1,62 @@
+---
+layout: post
+title:  "传感器检测技术"
+date:   2022-09-19
+categories: original
+---
+
+
+
+# 检测技术导论
+
+## 测量与检测
+
+<font color='cornflowerblue'>测量过程三要素</font>：
+
+- <font color='red'>测量单位</font>
+- <font color='red'>测量方法</font>
+- <font color='red'>测量装置</font>
+
+<font color='orange'>检测</font>是更为意义的测量，其包含<font color='green'>测量和信息获取</font>。
+
+检测过程包括测量、信息提取、信号转换与传输、存储显示等过程。
+
+检测技术包括测量方法、检测装置和检测信号处理等内容。
+
+<img src="https://img-blog.csdnimg.cn/d5893b6c393243bf9b6a75d001a927b0.png" alt="请添加图片描述" style="zoom:50%;" />
+
+## 重要掌握测量方法P3
+
+### 偏差法测量
+
+<img src="https://img-blog.csdnimg.cn/31a102c760bc48a994ef63afff84a0df.png" alt="请添加图片描述" style="zoom:50%;" />
+
+### 零位法测量
+
+<font color='red'>关键词:</font>已知标准量、被测量、平衡机构
+
+应用场景：天平称重、电位差计和平衡电桥
+
+<img src="https://img-blog.csdnimg.cn/427831e25b37412e9d82c6b8e108aaaa.png" alt="请添加图片描述" style="zoom:50%;" />
+
+### 微差法测量
+
+<font color='red'>原理:</font>用已知标准量的作用去抵消被测量的大部分作用<font color='orange'>(零位法体现)</font>，再用偏差发来测量被测量与已知量的差值<font color='orange'>(偏差法体现)</font>
+
+结合两者优点，测量精度高、反映快，适合实时控制参数的检测。
+
+<img src="https://img-blog.csdnimg.cn/d34148720090438e852387f7b08d345f.png" alt="请添加图片描述" style="zoom:50%;" />
+
+## 检测系统的组成
+
+检测系统一般由<u><font color='red'>传感器、信号调理电路、信号处理和显示记录装置</font></u>等部分组成
+
+<img src="https://img-blog.csdnimg.cn/51567ab390d94834a1f1a47ae3fb7c86.png" alt="请添加图片描述" style="zoom:50%;" />
+
+### 补偿结构
+
+<img src="https://img-blog.csdnimg.cn/ed9985034f2346e8aa3d2d4a2933a989.png" alt="请添加图片描述" style="zoom:50%;" />
+
+### 差动结构
+
+<img src="https://img-blog.csdnimg.cn/8c87608ee7b445a58f538496b45a9789.png" alt="请添加图片描述" style="zoom:50%;" />
